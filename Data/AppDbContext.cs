@@ -1,0 +1,1 @@
+// Data/AppDbContext.cs\nusing Microsoft.EntityFrameworkCore;\nnamespace CryptoAPI.Data {\n public class AppDbContext : DbContext { public AppDbContext(DbContextOptions<AppDbContext> opts): base(opts){} public DbSet<User> Users { get; set; } public DbSet<Transaction> Transactions { get; set; } /* Add PortfolioItems */ }\n}
