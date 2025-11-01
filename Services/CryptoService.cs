@@ -1,0 +1,1 @@
+// Services/CryptoService.cs\nusing System.Net.Http; using System.Text.Json;\nnamespace CryptoAPI.Services {\n public class CryptoService : ICryptoService { private readonly HttpClient _http; public CryptoService(HttpClient http){_http=http;} public async Task<decimal> GetPriceAsync(string symbol){/* call API and parse price */ return 0m; } }\n}
