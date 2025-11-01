@@ -1,0 +1,1 @@
+// Models/User.cs\nnamespace CryptoAPI.Models {\n public class User { public int Id { get; set; } public string Username { get; set; } public string PasswordHash { get; set; } }\n}
