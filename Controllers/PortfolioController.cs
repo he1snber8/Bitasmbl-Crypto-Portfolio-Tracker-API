@@ -1,0 +1,1 @@
+// Controllers/PortfolioController.cs\nusing Microsoft.AspNetCore.Authorization;\nusing Microsoft.AspNetCore.Mvc;\nnamespace CryptoAPI.Controllers {\n [ApiController]\n [Authorize]\n [Route("api/portfolio")]\n public class PortfolioController : ControllerBase { /* GET, POST portfolio actions */ }\n}
