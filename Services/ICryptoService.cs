@@ -1,0 +1,1 @@
+// Services/ICryptoService.cs\nnamespace CryptoAPI.Services {\n public interface ICryptoService { Task<decimal> GetPriceAsync(string symbol); }\n}
