@@ -1,0 +1,1 @@
+// Program.cs\nvar builder = WebApplication.CreateBuilder(args);\n// Add DbContext: builder.Services.AddDbContext<AppDbContext>(options => ...);\n// Add Authentication: builder.Services.AddAuthentication().AddJwtBearer(...);\nvar app = builder.Build();
