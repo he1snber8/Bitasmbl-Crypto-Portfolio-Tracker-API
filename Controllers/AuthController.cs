@@ -1,0 +1,1 @@
+// Controllers/AuthController.cs\nusing Microsoft.AspNetCore.Mvc;\nnamespace CryptoAPI.Controllers {\n [ApiController]\n [Route("api/auth")]\n public class AuthController : ControllerBase { private readonly Services.IAuthService _auth; public AuthController(Services.IAuthService auth){_auth=auth;} /* POST /login */ }\n}
