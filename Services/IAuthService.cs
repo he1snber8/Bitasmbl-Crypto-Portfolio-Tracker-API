@@ -1,0 +1,1 @@
+// Services/IAuthService.cs\nnamespace CryptoAPI.Services {\n public interface IAuthService { string GenerateToken(Models.User user); /* Validate credentials */ }\n}
